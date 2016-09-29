@@ -1,5 +1,7 @@
 # Welcome to Statistics New Zealand's R Repository
 
+A collection of R packages produced by Statistics New Zealand made available for general use.
+
 ## dembase
 
 General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods.
