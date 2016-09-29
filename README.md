@@ -1,6 +1,7 @@
 # Welcome to Statistics New Zealand's R Repository
 
-A collection of R packages produced by Statistics New Zealand made available for general use.
+A collection of R packages produced by Statistics New Zealand and contributors.
+
 
 ## dembase
 
