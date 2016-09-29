@@ -4,7 +4,7 @@ A collection of R packages produced by Statistics New Zealand and contributors.
 
 ## classconc
 
-Functions and data structures for working with concordances between statistical classifications, e.g. concordances between different occupational codes or geographical units. Under development.
+Functions and data structures for working with concordances between statistical classifications, e.g. concordances between  occupational codes or geographical units. Under development.
 
 ## dembase
 
@@ -18,4 +18,6 @@ Example datasets for demography.
 
 Estimating and forecasting demographic rates and counts, using Bayesian methods.  Under development.
 
+## demlife
 
+Functions and data structures for working with life tables.  Code to be uploaded in October 2016!
