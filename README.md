@@ -2,16 +2,20 @@
 
 A collection of R packages produced by Statistics New Zealand and contributors.
 
+## classconc
+
+Functions and data structures for working with concordances between statistical classifications, e.g. concordances between different occupational codes or geographical units. Under development.
 
 ## dembase
 
-General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods.
+General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods. Under development.
 
 ## demdata
 
 Example datasets for demography.
 
-## classconc
+## demest
 
-Classes and methods for working with concordances between statistical classifications, e.g. concordances between different occupational codes or geographical units.
+Estimating and forecasting demographic rates and counts, using Bayesian methods.  Under development.
+
 
