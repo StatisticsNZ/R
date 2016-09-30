@@ -21,3 +21,7 @@ Estimating and forecasting demographic rates and counts, using Bayesian methods.
 ## demlife
 
 Functions and data structures for working with life tables.  Code to be uploaded in October 2016!
+
+__Copyright and Licensing__
+
+Unless othersise stated all R packages are Crown copyright (c) 2016, Statistics New Zealand on behalf of the New Zealand Government, and are licensed under a MIT license.
