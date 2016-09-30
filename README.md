@@ -22,7 +22,7 @@ Estimating and forecasting demographic rates and counts, using Bayesian methods.
 
 Functions and data structures for working with life tables.  Code to be uploaded in October 2016!
 
-
+-----
 
 __Copyright and Licensing__
 
