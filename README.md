@@ -11,7 +11,7 @@ A set of packages for demographic estimation and forecasting consisting of:
 + [**`dembase`**](https://github.com/StatisticsNZ/dembase) General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods. Under development.
 + [**`demdata`**](https://github.com/StatisticsNZ/demdata) - Example datasets for demography.
 + [**`demest`**](https://github.com/StatisticsNZ/demest) - Estimating and forecasting demographic rates and counts, using Bayesian methods.  Under development.
-+ **`demlife`** - Functions and data structures for working with life tables.  Code to be uploaded soon.
++ **`demlife`** - Functions and data structures for working with life tables.  Temporarily housed at github.com/johnrbryant/demlife.
 
 To install all available packages run:
 
