@@ -1,11 +1,9 @@
 # Welcome to Stats NZ's R Repository
 
-A collection of R packages produced by Stats NZ and contributors.
+A collection of R packages and code produced by Stats NZ and contributors.
 
 
 ## Packages for Demographic Estimation and Forecasting
-
-A set of packages for demographic estimation and forecasting consisting of:
 
 + [**`classconc`**](https://github.com/StatisticsNZ/classconc) Functions and data structures for working with concordances between statistical classifications.
 + [**`dembase`**](https://github.com/StatisticsNZ/dembase) General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods.
@@ -23,17 +21,18 @@ To install the packages run:
 
 ```r
 library(devtools)
-install_github("StatisticsNZ/classconc")
-install_github("StatisticsNZ/dembase")
-install_github("StatisticsNZ/demdata")
-install_github("StatisticsNZ/demest")
-install_github("StatisticsNZ/demlife")
-install_github("StatisticsNZ/demfam")
+install_github("statisticsnz/classconc")
+install_github("statisticsnz/dembase")
+install_github("statisticsnz/demdata")
+install_github("statisticsnz/demest")
+install_github("statisticsnz/demlife")
+install_github("statisticsnz/demfam")
+install_github("statisticsnz/nzreg")
 ```
 
 ## Example Code
 
-+ [**`nz_reg_proj`**](https://github.com/StatisticsNZ/nz_reg_proj) Experimental population forecasts for New Zealand regions.
++ [**`nz_reg_proj`**](https://github.com/StatisticsNZ/nz_reg_proj) Experimental population forecasts for New Zealand regions. These are not official forecasts, and are for illustration only!
 + [**`lifetables_workflow`**](https://github.com/StatisticsNZ/lifetables_workflow) Code for estimating mortality rates and using them to produce life tables (including, for example, life expectancies).
 + [**`makefile_example`**](https://github.com/StatisticsNZ/makefile_example) Example of using a Makefile to control a workflow, and hence make the workflow safer and more reproducible.
 
