@@ -17,7 +17,7 @@ A set of packages for demographic estimation and forecasting consisting of:
 
 All these packages are still under development. In particular, the user interface changes from time to time. If you are using these packages, please visit this site regularly to get the most recent version.  We will post the packages on CRAN when they are sufficiently stable and mature.
 
-The New Zealand data in packages **dembase** and **nzreg** are for methodological and software development, and not for statistical analysis. The data are not necessarily up-to-date, and contain imputed or perturbed values.  For statistics on New Zealand, please see the [Stats NZ website](https://www.stats.govt.nz).
+The New Zealand data in packages **dembase** and **nzreg** are for methodological and software development, and not for statistical analysis. The data are not necessarily up-to-date, and contain imputed or perturbed values.  For statistics on New Zealand, please see the [Stats NZ website](http://www.stats.govt.nz).
 
 To install the packages run:
 
@@ -33,9 +33,9 @@ install_github("StatisticsNZ/demfam")
 
 ## Example Code
 
-[**`nz_reg_proj`**](https://github.com/StatisticsNZ/nz_reg_proj) Experimental population forecasts for New Zealand regions.
-[**`lifetables_workflow`**](https://github.com/StatisticsNZ/lifetables_workflow) Code for estimating mortality rates and using them to produce life tables (including, for example, life expectancies).
-[**`makefile_example`**](https://github.com/StatisticsNZ/makefile_example) Example of using a Makefile to control a workflow, and hence make the workflow safer and more reproducible.
++ [**`nz_reg_proj`**](https://github.com/StatisticsNZ/nz_reg_proj) Experimental population forecasts for New Zealand regions.
++ [**`lifetables_workflow`**](https://github.com/StatisticsNZ/lifetables_workflow) Code for estimating mortality rates and using them to produce life tables (including, for example, life expectancies).
++ [**`makefile_example`**](https://github.com/StatisticsNZ/makefile_example) Example of using a Makefile to control a workflow, and hence make the workflow safer and more reproducible.
 
 -----
 
