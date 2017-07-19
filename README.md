@@ -16,11 +16,12 @@ A set of packages for demographic estimation and forecasting consisting of:
 To install all available packages run:
 
 ```r
-devtools::install_github("StatisticsNZ/classconc")
-devtools::install_github("StatisticsNZ/dembase")
-devtools::install_github("StatisticsNZ/demdata")
-devtools::install_github("StatisticsNZ/demest")
-devtools::install_github("StatisticsNZ/demlife")
+library(devtools)
+install_github("StatisticsNZ/classconc")
+install_github("StatisticsNZ/dembase")
+install_github("StatisticsNZ/demdata")
+install_github("StatisticsNZ/demest")
+install_github("StatisticsNZ/demlife")
 ```
 
 -----
