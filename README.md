@@ -1,19 +1,25 @@
-# Welcome to Statistics New Zealand's R Repository
+# Welcome to Stats NZ's R Repository
 
-A collection of R packages produced by Statistics New Zealand and contributors.
+A collection of R packages produced by Stats NZ and contributors.
 
 
-## Demographic Estimation and Forecasting
+## Packages for Demographic Estimation and Forecasting
 
 A set of packages for demographic estimation and forecasting consisting of:
 
-+ [**`classconc`**](https://github.com/StatisticsNZ/classconc) Functions and data structures for working with concordances between statistical classifications, e.g. concordances between  occupational codes or geographical units. Under development.
-+ [**`dembase`**](https://github.com/StatisticsNZ/dembase) General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods. Under development.
++ [**`classconc`**](https://github.com/StatisticsNZ/classconc) Functions and data structures for working with concordances between statistical classifications.
++ [**`dembase`**](https://github.com/StatisticsNZ/dembase) General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods.
 + [**`demdata`**](https://github.com/StatisticsNZ/demdata) Example datasets for demography.
-+ [**`demest`**](https://github.com/StatisticsNZ/demest) Estimating and forecasting demographic rates and counts, using Bayesian methods.  Under development.
++ [**`demest`**](https://github.com/StatisticsNZ/demest) Estimating and forecasting demographic rates and counts, using Bayesian methods.
 + [**`demlife`**](https://github.com/StatisticsNZ/demlife) Functions and data structures for working with life tables.
++ [**`demfam`**](https://github.com/StatisticsNZ/demfam) Functions and data structures for forecasting households and families.
++ [**`nzreg`**](https://github.com/StatisticsNZ/nzreg) Example datasets for New Zealand regions. 
 
-To install all available packages run:
+All these packages are still under development. In particular, the user interface changes from time to time. If you are using these packages, please visit this site regularly to get the most recent version.  We will post the packages on CRAN when they are sufficiently stable and mature.
+
+The New Zealand data in packages **dembase** and **nzreg** are for methodological and software development, and not for statistical analysis. The data are not necessarily up-to-date, and contain imputed or perturbed values.  For statistics on New Zealand, please see the [Stats NZ website](https://www.stats.govt.nz).
+
+To install the packages run:
 
 ```r
 library(devtools)
@@ -22,7 +28,14 @@ install_github("StatisticsNZ/dembase")
 install_github("StatisticsNZ/demdata")
 install_github("StatisticsNZ/demest")
 install_github("StatisticsNZ/demlife")
+install_github("StatisticsNZ/demfam")
 ```
+
+## Example Code
+
+[**`nz_reg_proj`**](https://github.com/StatisticsNZ/nz_reg_proj) Experimental population forecasts for New Zealand regions.
+[**`lifetables_workflow`**](https://github.com/StatisticsNZ/lifetables_workflow) Code for estimating mortality rates and using them to produce life tables (including, for example, life expectancies).
+[**`makefile_example`**](https://github.com/StatisticsNZ/makefile_example) Example of using a Makefile to control a workflow, and hence make the workflow safer and more reproducible.
 
 -----
 
