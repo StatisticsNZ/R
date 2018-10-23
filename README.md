@@ -5,7 +5,6 @@ A collection of R packages and code produced by Stats NZ and contributors.
 
 ## Packages for Demographic Estimation and Forecasting
 
-+ [**`classconc`**](https://github.com/StatisticsNZ/classconc) Functions and data structures for working with concordances between statistical classifications.
 + [**`dembase`**](https://github.com/StatisticsNZ/dembase) General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods.
 + [**`demdata`**](https://github.com/StatisticsNZ/demdata) Example datasets for demography.
 + [**`demest`**](https://github.com/StatisticsNZ/demest) Estimating and forecasting demographic rates and counts, using Bayesian methods.
@@ -21,7 +20,6 @@ To install the packages run:
 
 ```r
 library(devtools)
-install_github("statisticsnz/classconc")
 install_github("statisticsnz/dembase")
 install_github("statisticsnz/demdata")
 install_github("statisticsnz/demest")
