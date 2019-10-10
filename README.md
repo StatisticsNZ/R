@@ -2,7 +2,19 @@
 
 A collection of R packages and code produced by Stats NZ and contributors.
 
+## Packages for Visualisation
 
++ [**`simplevis`**](https://github.com/statisticsnz/simplevis) Simple visualisation with `ggplot` and `leaflet` wrapper functions.
+
+simplevis is an `R` package that enables high quality graphs and maps to be made with ease for use in analysis, reports or `shiny` apps. The package is based on a series of `ggplot2` and `leaflet` wrapper functions, and template/example shiny apps that work with these.
+
+We intend to post this package to CRAN shortly.
+
+To install this package run:
+
+```r
+devtools::install_github("statisticsnz/simplevis")
+```
 ## Packages for Demographic Estimation and Forecasting
 
 + [**`dembase`**](https://github.com/StatisticsNZ/dembase) General-purpose tools for demographic analysis, broadly defined.  Includes facilities for data manipulation, multistate models, projections, and plotting.  Uses S4 classes and methods.
