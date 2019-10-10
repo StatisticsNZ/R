@@ -9,7 +9,9 @@ A collection of R packages and code produced by Stats NZ and contributors.
 The package is based on a series of `ggplot2` and `leaflet` wrapper functions, and template/example shiny apps that work with these. 
 
 To install this package, run: 
-```r devtools::install_github("statisticsnz/simplevis")```
+```r 
+devtools::install_github("statisticsnz/simplevis")
+```
 
 We intend to post this package to CRAN shortly.
 
