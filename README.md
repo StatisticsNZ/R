@@ -4,11 +4,7 @@ A collection of R packages and code produced by Stats NZ and contributors.
 
 ## Simplevis visualisation package
 
-[**`simplevis`**](https://github.com/statisticsnz/simplevis) is an `R` package that enables high quality graphs and maps to be made with ease for use in analysis, reports or `shiny` apps. 
-
-The package is based on a series of `ggplot2` and `leaflet` wrapper functions, and template/example shiny apps that work with these. 
-
-To install this package, run: 
+[**`simplevis`**](https://github.com/statisticsnz/simplevis) is an `R` package that enables high quality graphs and maps to be made with ease for use in analysis, reports or `shiny` apps. The package is based on a series of `ggplot2` and `leaflet` wrapper functions, and template/example shiny apps that work with these. To install this package, run: 
 ```r 
 devtools::install_github("statisticsnz/simplevis")
 ```
